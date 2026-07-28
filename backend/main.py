@@ -18,7 +18,7 @@ app.add_middleware(
     allow_origins=[
         "http://127.0.0.1:5501",
         "http://localhost:5501",
-        "https://siyam-bay.vercel.app/"
+        "https://siyam-bay.vercel.app"
     ],
 
     allow_credentials=True,
