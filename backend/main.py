@@ -63,17 +63,17 @@ def receive_contact(data: ContactRequest):
 
     db.close()
 
-    send_email(
-          data.name,
-          data.email,
-          data.subject,
-          data.message
-     )
+    # send_email(
+    #       data.name,
+    #       data.email,
+    #       data.subject,
+    #       data.message
+    #  )
 
-    send_auto_reply(
-          data.email,
-          data.name
-     )
+    # send_auto_reply(
+    #       data.email,
+    #       data.name
+    #  )
 
     return {
         "success": True,
